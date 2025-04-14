@@ -1,0 +1,31 @@
+.shop {
+    text-align: center;
+}
+
+.shop__tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.shop__tabs button {
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+.shop__tabs-indicator {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.shop__tabs .active {
+    font-weight: 500;
+}

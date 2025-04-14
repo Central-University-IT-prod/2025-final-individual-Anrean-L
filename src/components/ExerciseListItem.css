@@ -1,0 +1,49 @@
+.exercise-list-item {
+    list-style: none;
+    min-height: 220px;
+}
+
+.exercise-list-item__button {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    color: var(--color-font-contrast);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.exercise-list-item__backdrop {
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+
+.exercise-list-item__name {
+    margin: 0;
+    z-index: 1;
+    transition: padding .3s;
+}
+
+@media (hover: hover) {
+    .exercise-list-item:hover .exercise-list-item__backdrop {
+        opacity: .67;
+    }
+
+    .exercise-list-item:hover .exercise-list-item__name {
+        padding-block-end: 5px;
+    }
+}

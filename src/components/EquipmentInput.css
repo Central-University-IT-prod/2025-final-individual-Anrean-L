@@ -1,0 +1,65 @@
+.equipment-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.equipment-input-wrapper {
+    display: flex;
+    gap: .5rem;
+    margin-top: .25rem;
+}
+
+.equipment-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid var(--color-accent-dark);
+    border-radius: 15px;
+}
+
+.equipment-add-btn {
+    background-color: var(--color-panels);
+    color: var(--color-font-contrast);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.equipment-list {
+    margin-top: .5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.equipment-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-accent-gray);
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    border-radius: 15px;
+    margin-top: .25rem;
+}
+
+.equipment-remove-btn {
+    background-color: var(--color-accent-gray);
+    color: var(--color-panels);
+    border: none;
+    padding: 2px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform .3s;
+}
+
+@media (hover: hover) {
+    .equipment-add-btn:hover {
+        background-color: var(--color-panels-hover);
+    }
+
+    .equipment-remove-btn:hover {
+        transform: rotate(180deg);
+    }
+}

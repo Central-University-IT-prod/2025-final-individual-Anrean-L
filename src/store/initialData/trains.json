@@ -1,0 +1,77 @@
+{
+	"qiHu5SxedgbtkX-1wGjZ_": {
+		"name": "Тренировка для пресса",
+		"img": "/examples/train1.jpg",
+		"exercises": [
+			{
+				"id": "J4sxsfdxX7P72WYhkNdEF",
+				"val": 31
+			},
+			{
+				"id": "oGrrhcCxh0ADnWCcBtlyc",
+				"val": 21
+			},
+			{
+				"id": "SZhhA_dWqSlCnD1V_9xOR",
+				"val": 16
+			},
+			{
+				"id": "UAZqhqoXO4D4XFB24GeoX",
+				"val": 21
+			}
+		],
+		"time": 3,
+		"reward": 346,
+		"k": 494.59999999999997
+	},
+	"As9c7Eh7dhbx-PfOj0BdX": {
+		"name": "Тренировка для ног",
+		"img": "/examples/train2.jpg",
+		"exercises": [
+			{
+				"id": "eJKZg8Fm85v2Xo7vBvQnu",
+				"val": 31
+			},
+			{
+				"id": "k5d-sh9VUaDxHMD5F1FpR",
+				"val": 21
+			},
+			{
+				"id": "1d5lF74zUL_Kw6esRhwfp",
+				"val": 31
+			},
+			{
+				"id": "BEieGUeuCyZgRT7i6fDJz",
+				"val": 31
+			},
+			{
+				"id": "BKOm34t3mX_W43UejmO9H",
+				"val": 16
+			}
+		],
+		"time": 6,
+		"reward": 657,
+		"k": 1266.78
+	},
+	"4gOWzrPfXcKzPUyF5kKex": {
+		"name": "Тренировка для рук",
+		"img": "/examples/train3.jpg",
+		"exercises": [
+			{
+				"id": "aq6JhGW7_J7BPkGDP3P30",
+				"val": 21
+			},
+			{
+				"id": "A7wFb4sZZbMSKYCfCIsY5",
+				"val": 13
+			},
+			{
+				"id": "jApxHKqSH7nyt6eKs59Q6",
+				"val": 21
+			}
+		],
+		"time": 4,
+		"reward": 555.1,
+		"k": 787.01
+	}
+}

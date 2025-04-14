@@ -1,0 +1,26 @@
+.statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.statistics__calories-input button {
+    background-color: var(--color-panels);
+    color: var(--color-font-contrast);
+    padding-inline: .8rem;
+    padding-block: .3rem;
+    border-radius: 8px;
+}
+
+.statistics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.statistics ul li {
+    background: var(--color-accent-gray);
+    padding: .3rem;
+    margin: .2rem 0;
+    border-radius: 5px;
+}

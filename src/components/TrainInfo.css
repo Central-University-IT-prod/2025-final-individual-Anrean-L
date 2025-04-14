@@ -1,0 +1,10 @@
+train-info {
+    position: relative;
+}
+
+.train-info .button {
+    position: sticky;
+    width: 100%;
+    bottom: 1rem;
+    box-shadow: 0 0 20px 0;
+}

@@ -1,0 +1,14 @@
+.logo {
+    text-align: center;
+}
+
+.logo__image {
+    max-width: 13.75rem;
+    margin-block-end: -3rem;
+}
+
+.logo__heading {
+    font-weight: 400;
+    font-size: clamp(2.625rem, 20vw, 4.625rem);
+    margin-block: 0;
+}

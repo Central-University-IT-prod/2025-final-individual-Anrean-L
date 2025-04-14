@@ -1,0 +1,21 @@
+.filter-checkbox {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background .3s;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.filter-checkbox input {
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+
+.filter-checkbox:has(input:checked) {
+    background-color: var(--color-accent-dark);
+}

@@ -1,0 +1,46 @@
+.rest-screen {
+    max-width: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100lvh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.rest-screen__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-block: 2rem 1rem;
+}
+
+.rest-screen__timer {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-font-contrast);
+    padding: .8rem 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.rest-screen__next-exercise {
+    color: var(--color-font-contrast);
+    max-width: 28rem;
+}
+
+.rest-screen__name {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.rest-screen__description {
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.rest-screen .button {
+    font-size: 1.25rem;
+    padding-block: .8rem;
+    padding-inline: 1.5rem
+}

@@ -1,0 +1,47 @@
+.form-ex-card {
+    list-style: none;
+    background-color: var(--color-accent-gray);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.form-ex-card>img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+}
+
+.form-ex-card__info {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-ex-card__info h2 {
+    font-size: clamp(1.2rem, calc(1rem + 2vw), 1.5rem);
+    margin: 0;
+    font-weight: 500;
+}
+
+.form-ex-card__line {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 25rem) {
+    .form-ex-card {
+        display: flex;
+    }
+
+    .form-ex-card>img {
+        width: 50%;
+        aspect-ratio: auto;
+    }
+
+    .form-ex-card__info {
+        width: 50%;
+    }
+
+}

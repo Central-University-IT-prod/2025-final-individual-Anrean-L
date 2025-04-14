@@ -1,0 +1,5 @@
+.heading {
+    font-size: clamp(1.5rem, calc(3vw + 1.4rem), 2.5rem);
+    min-height: calc(1.5 * clamp(1.5rem, calc(3vw + 1.4rem), 2.5rem));
+    font-weight: normal;
+}

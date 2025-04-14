@@ -1,0 +1,38 @@
+.difficulty-select {
+    margin-block: 1rem;
+}
+
+.difficulty-select__container {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-block-start: .5rem;
+}
+
+.difficulty-select__button {
+    width: clamp(3rem, calc(2rem + 6vw), 4rem);
+    height: clamp(3rem, calc(2rem + 6vw), 4rem);
+    border: none;
+    border-radius: 50%;
+    background: var(--color-accent-gray);
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.difficulty-select__button--selected {
+    background: var(--color-complementary);
+    color: var(--color-font-contrast);
+}
+
+@media (hover: hover) {
+    .difficulty-select__button:hover {
+        background: var(--color-accent-dark);
+        transform: scale(1.1);
+    }
+
+    .difficulty-select__button--selected:hover {
+        background: var(--color-panels-hover);
+    }
+}

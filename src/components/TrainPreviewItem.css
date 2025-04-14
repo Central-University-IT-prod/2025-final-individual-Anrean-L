@@ -1,0 +1,46 @@
+.train-preview-item {
+    list-style: none;
+}
+
+.train-preview-item__link {
+    margin: 0;
+    display: flex;
+    margin-block-end: 1rem;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: var(--color-accent-gray);
+}
+
+.train-preview-item__image {
+    object-fit: cover;
+}
+
+.train-preview-item__details {
+    padding-inline: 1rem;
+    padding-block: .5rem;
+}
+
+.train-preview-item__details :is(h2, p) {
+    margin-block: .5rem;
+}
+
+.train-preview-item__details h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.train-preview-item__details strong {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 26rem) {
+
+    .train-preview-item__link {
+        flex-direction: column;
+    }
+
+    .train-preview-item__image {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}

@@ -1,0 +1,11 @@
+.info-img-text {
+    display: flex;
+    align-items: center;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.info-img-text img {
+    margin-inline-end: 0.5rem;
+    height: 70%;
+}

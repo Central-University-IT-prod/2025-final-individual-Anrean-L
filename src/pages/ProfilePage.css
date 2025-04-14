@@ -1,0 +1,50 @@
+.profile-page {
+    padding-block-start: 2rem;
+}
+
+.profile-page__line {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1rem;
+    gap: 1rem;
+}
+
+.profile-page__open-shop {
+    padding-inline: 1rem;
+    background-color: var(--color-panels);
+    color: var(--color-font-contrast);
+    border-radius: 15px;
+}
+
+.profile-page__input-box {
+    flex-basis: 50%;
+}
+
+.profile-page__select {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    padding: 1rem;
+    background-color: var(--color-accent-gray);
+    border-radius: 10px;
+}
+
+.profile-page__select button {
+    position: relative;
+    padding: .5rem;
+}
+
+.profile-page__select span {
+    z-index: 1;
+    position: relative;
+}
+
+.profile-page__indicator {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}

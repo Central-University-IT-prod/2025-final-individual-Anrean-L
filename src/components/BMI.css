@@ -1,0 +1,46 @@
+.bmi {
+    padding: 2rem;
+    border-radius: 15px;
+    font-weight: 500;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 9rem;
+}
+
+.bmi p {
+    margin: 0;
+}
+
+.bmi__def {
+    background: linear-gradient(45deg, #0000F0, #072046);
+    color: white;
+}
+
+.bmi__light-def {
+    background: linear-gradient(45deg, #00FFFF, #40de62);
+}
+
+.bmi__normal {
+    background: linear-gradient(45deg, #00FF00, #2fffd2);
+}
+
+.bmi__light-prof {
+    background: linear-gradient(45deg, #ADFF2F, #e1cf48);
+}
+
+.bmi__prof {
+    background: linear-gradient(45deg, #FFFF00, #c3960f);
+}
+
+.bmi__heavy-prof {
+    background: linear-gradient(45deg, #FF8000, #e5b856);
+}
+
+.bmi__obesity {
+    color: white;
+    background: linear-gradient(45deg, #F00000, #e99115);
+}

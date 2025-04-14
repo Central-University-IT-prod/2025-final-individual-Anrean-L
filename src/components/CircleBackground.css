@@ -1,0 +1,38 @@
+.circle-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-background~* {
+    z-index: 1;
+}
+
+.circle-background__circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--color-complementary);
+}
+
+.circle-background__circle--large {
+    width: 40rem;
+    height: 40rem;
+    opacity: .33;
+}
+
+.circle-background__circle--medium {
+    width: 30rem;
+    height: 30rem;
+    opacity: .66;
+}
+
+.circle-background__circle--small {
+    width: 20rem;
+    height: 20rem;
+}

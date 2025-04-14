@@ -1,0 +1,9 @@
+.header-back {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.header-back__action {
+    padding: 0.8rem;
+}

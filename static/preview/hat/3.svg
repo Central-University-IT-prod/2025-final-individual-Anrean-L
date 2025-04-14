@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="200"
+   height="200"
+   version="1.1"
+   id="svg87"
+   sodipodi:docname="3.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview87"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.75488282"
+     inkscape:cx="1.3247089"
+     inkscape:cy="221.88874"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg87" />
+  <defs
+     id="defs37">
+    <linearGradient
+       id="gradient_0"
+       gradientUnits="userSpaceOnUse"
+       x1="739.12897"
+       y1="136.68178"
+       x2="743.89288"
+       y2="118.3054"
+       gradientTransform="matrix(0.69865891,0,0,0.69865891,452.28286,102.75173)">
+      <stop
+         offset="0"
+         stop-color="#110B0A"
+         id="stop36" />
+      <stop
+         offset="1"
+         stop-color="#2C1A17"
+         id="stop37" />
+    </linearGradient>
+  </defs>
+  <defs
+     id="defs67">
+    <linearGradient
+       id="gradient_1"
+       gradientUnits="userSpaceOnUse"
+       x1="726.9071"
+       y1="328.62439"
+       x2="722.15552"
+       y2="326.51587"
+       gradientTransform="matrix(0.69865891,0,0,0.69865891,452.28286,102.75173)">
+      <stop
+         offset="0"
+         stop-color="#090504"
+         id="stop66" />
+      <stop
+         offset="1"
+         stop-color="#21110F"
+         id="stop67" />
+    </linearGradient>
+  </defs>
+  <defs
+     id="defs70">
+    <linearGradient
+       id="gradient_2"
+       gradientUnits="userSpaceOnUse"
+       x1="791.77368"
+       y1="158.23056"
+       x2="799.45844"
+       y2="187.01111"
+       gradientTransform="matrix(0.69865891,0,0,0.69865891,452.28286,102.75173)">
+      <stop
+         offset="0"
+         stop-color="#040000"
+         id="stop69" />
+      <stop
+         offset="1"
+         stop-color="#221313"
+         id="stop70" />
+    </linearGradient>
+  </defs>
+  <defs
+     id="defs72">
+    <linearGradient
+       id="gradient_3"
+       gradientUnits="userSpaceOnUse"
+       x1="687.62524"
+       y1="310.17313"
+       x2="680.60168"
+       y2="304.02301"
+       gradientTransform="matrix(0.69865891,0,0,0.69865891,452.28286,102.75173)">
+      <stop
+         offset="0"
+         stop-color="black"
+         id="stop71" />
+      <stop
+         offset="1"
+         stop-color="#271614"
+         id="stop72" />
+    </linearGradient>
+  </defs>
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.76552;stroke-linecap:round;stroke-miterlimit:28;stroke-dasharray:none;stroke-opacity:1"
+     d="m 189.29764,69.717153 c -35.11302,9.11001 -59.48362,38.752957 -67.45471,72.258517 -2.29264,9.63685 -27.355421,-10.55339 -23.560045,-19.70327 14.267895,-34.396937 37.127495,-60.540237 71.303565,-69.602347 8.88916,-2.35705 31.0394,14.10801 19.71119,17.0471 z"
+     id="path88"
+     sodipodi:nodetypes="sssss" />
+  <path
+     style="fill:#d40000;stroke:#000000;stroke-width:1.76552;stroke-linecap:round;stroke-miterlimit:23.6;stroke-dasharray:none;stroke-opacity:1"
+     d="m 99.235521,118.84291 c -0.46322,0.72895 -13.674606,-5.94558 -36.05142,-12.65845 C 40.68111,99.433743 29.8336,100.98665 32.04369,98.186043 c 32.252244,-40.86971 89.85476,-54.19828 136.01854,-45.79105 1.61176,0.29353 -19.98874,7.91148 -34.31038,19.52736 -18.73774,15.19766 -27.60474,36.044167 -34.516329,46.920557 z"
+     id="path89"
+     sodipodi:nodetypes="ssssss" />
+  <ellipse
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.32587;stroke-linecap:round;stroke-miterlimit:23.6;stroke-dasharray:none;stroke-opacity:1"
+     id="path90"
+     cx="28.760754"
+     cy="101.1461"
+     rx="14.643161"
+     ry="14.981952" />
+</svg>

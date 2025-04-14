@@ -1,0 +1,16 @@
+.calendar-section__calendar {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.calendar-section__day-info {
+    margin-block-start: .8rem;
+}
+
+.calendar-section__button {
+    background-color: var(--color-panels);
+    color: var(--color-font-contrast);
+    padding-inline: .8rem;
+    padding-block: .3rem;
+    border-radius: 8px;
+}

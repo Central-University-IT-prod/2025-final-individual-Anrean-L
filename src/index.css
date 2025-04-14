@@ -1,0 +1,49 @@
+@import './fonts.css';
+@import './variables.css';
+
+:root {
+  font-family: Raleway, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a, a:active, a:visited {
+  text-decoration: inherit;
+  color: inherit
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 32rem;
+  padding-inline: 1rem;
+  margin-inline: auto;
+  margin-block-end: 8.5rem;
+}
+
+button {
+  background: initial;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline-width: 4px;
+  outline-style: solid;
+  outline-color: var(--color-complementary);
+}
+
+.error {
+  color: red;
+}

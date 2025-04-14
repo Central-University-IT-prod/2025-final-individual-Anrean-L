@@ -1,0 +1,34 @@
+.exercise-info-page__description {
+    font-size: 1.1rem;
+    margin-block: 0 1rem;
+}
+
+.exercise-info-page__info {
+    list-style: none;
+    padding: 0;
+}
+
+.exercise-info-page__info li {
+    margin-block: .3rem;
+    font-size: 1.1rem;
+}
+
+.exercise-info-page__info strong {
+    margin-inline-end: .5rem;
+}
+
+.exercise-info-page__difficulty {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.exercise-info-page__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.exercise-info-page__actions button {
+    flex: 1 0 auto;
+    padding-block: .7rem;
+}

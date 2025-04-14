@@ -1,0 +1,47 @@
+.muscle-group-selector {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-block-end: 2rem;
+}
+
+.muscle-group-selector p {
+    margin: 0;
+}
+
+.muscle-group-selector__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+}
+
+.muscle-group-selector__item {
+    background-color: var(--color-accent-gray);
+    padding: .5rem .75rem;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.muscle-group-selector__item input {
+    opacity: 0;
+    visibility: hidden;
+    margin: 0;
+    width: 0;
+}
+
+.muscle-group-selector__item:has(input:checked) {
+    background-color: var(--color-complementary);
+    color: var(--color-font-contrast);
+}
+
+
+@media (hover: hover) {
+    .muscle-group-selector__item:hover {
+        background: var(--color-accent-dark);
+    }
+
+    .muscle-group-selector__item:has(input:checked):hover {
+        background: var(--color-panels-hover);
+    }
+}

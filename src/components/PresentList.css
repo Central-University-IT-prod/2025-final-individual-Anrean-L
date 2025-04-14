@@ -1,0 +1,14 @@
+.present-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.present-list__item {
+    background: var(--color-complementary);
+    color: var(--color-font-contrast);
+    padding: .3rem .8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
